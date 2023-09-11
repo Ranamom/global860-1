@@ -84,9 +84,9 @@ am__theforgottenserver_SOURCES_DIST = account.h actions.cpp actions.h \
 	trashholder.h waitlist.cpp waitlist.h waypoints.h weapons.cpp \
 	weapons.h vocation.cpp vocation.h
 #am__objects_1 = admin.$(OBJEXT)
-am__objects_2 = databasemysql.$(OBJEXT)
+#am__objects_2 = databasemysql.$(OBJEXT)
 #am__objects_3 = databasemysqlpp.$(OBJEXT)
-#am__objects_4 = databasesqlite.$(OBJEXT)
+am__objects_4 = databasesqlite.$(OBJEXT)
 #am__objects_5 = databasepgsql.$(OBJEXT)
 #am__objects_6 = gameservers.$(OBJEXT)
 am_theforgottenserver_OBJECTS = actions.$(OBJEXT) $(am__objects_1) \
